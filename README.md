@@ -1,3 +1,33 @@
+# Spam vs Ham Email Classifier
+
+This project implements a binary text classification system aimed at distinguishing between spam and legitimate (ham) emails or messages by using traditional machine learning approaches.
+
+## Features
+
+- Preprocesses email text by performing tokenization, removing stopwords, and applying stemming.  
+- Converts text into numerical features using TF-IDF vectorization.  
+- Trains a Multinomial Naive Bayes classifier on the prepared dataset.  
+- Provides an easy-to-use Streamlit web application for interactive message classification.  
+- Includes example spam and ham messages for quick testing and demonstration.
+
+## Dataset
+
+The classifier is trained on a publicly available spam dataset containing two main columns:
+
+- `label`: Indicates whether a message is spam or ham.  
+- `text`: Contains the content of the email or SMS message.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone <repository_url>
+cd spam-ham-classifier
+
+Install the necessary dependencies:
+pip install -r requirements.txt
+
 
 Usage
 Train the Model
@@ -34,7 +64,7 @@ nltk
 
 streamlit
 
-Notes
+
 The classifier performs well on balanced datasets but might occasionally miss some spam messages. You are encouraged to experiment with other algorithms or add features to improve the model’s performance.
 
 License
