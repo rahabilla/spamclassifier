@@ -22,7 +22,7 @@ The classifier is trained on a publicly available spam dataset containing two ma
 Clone the repository:
 
 Install the necessary dependencies:
-'''bash
+
 pip install -r requirements.txt
 
 ### Usage
