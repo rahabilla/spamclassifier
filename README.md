@@ -21,14 +21,12 @@ The classifier is trained on a publicly available spam dataset containing two ma
 
 Clone the repository:
 
-```bash
-git clone <repository_url>
-cd spam-ham-classifier
-
 Install the necessary dependencies:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
-
 Usage
 Train the Model
 Run the training script to preprocess the data, train the classifier, and save both the trained model and the TF-IDF vectorizer:
@@ -64,7 +62,7 @@ nltk
 
 streamlit
 
-
+Notes
 The classifier performs well on balanced datasets but might occasionally miss some spam messages. You are encouraged to experiment with other algorithms or add features to improve the model’s performance.
 
 License
