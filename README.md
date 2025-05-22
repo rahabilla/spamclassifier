@@ -22,11 +22,9 @@ The classifier is trained on a publicly available spam dataset containing two ma
 Clone the repository:
 
 Install the necessary dependencies:
-
-bash
-Copy
-Edit
+'''bash
 pip install -r requirements.txt
+
 ### Usage
 
 Run the training script to preprocess the data, train the classifier, and save both the trained model and the TF-IDF vectorizer
