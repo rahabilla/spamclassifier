@@ -49,7 +49,7 @@ Alternatively, use the sidebar buttons to load sample spam or ham messages.
 
 Click the Classify button to see if the message is spam or ham.
 
-###Dependencies
+### Dependencies
 Python 3.7 or higher
 
 pandas
