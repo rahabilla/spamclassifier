@@ -30,4 +30,4 @@ if st.button("Classify"):
     else:
         transformed = vectorizer.transform([user_input])
         prediction = model.predict(transformed)[0]
-        st.success(f"🧠 Prediction: **{'Spam' if prediction == 'spam' else 'Ham'}**")
+        st.success(f" Prediction: **{'Spam' if prediction == 'spam' else 'Ham'}**")
